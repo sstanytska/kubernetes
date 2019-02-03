@@ -2,10 +2,10 @@
 
 # 1 Run uname command in a single busybox container.The command should run every minute and must complete, within 10 seconds or be terminated by Kubernetes. The cronjob name and container should be hello.
 
-vim cronjon.yaml
-kubectl create -f cronjob.yaml
-kubectl get cronjob
-kubectl get jobs
+vim cronjon.yaml  
+kubectl create -f cronjob.yaml  
+kubectl get cronjob  
+kubectl get jobs  
 
 # 2 Troubleshoot Applications
 https://kubernetes.io/docs/tasks/debug-application-cluster/debug-application/
