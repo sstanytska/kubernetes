@@ -6,17 +6,9 @@ spec:
   containers:
   - image: nginx
     name: nginx
-    stdin: true
-    tty: true
   - image: redis
     name: redis
-    stdin: true
-    tty: true
   - image: memcached
     name: memcached
-    stdin: true
-    tty: true
   - image: consul
     name: consul
-    stdin: true
-    tty: true 
