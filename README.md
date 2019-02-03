@@ -19,7 +19,7 @@ kubectl create namespace web
 kubectl get namespaces
 kubectl create -f redis-pod.yaml
 
-# 6 vim test-pod.yaml
-kubectl create namespace test
-kubectl create -f test-pod.yaml
-kubectl get pods
+# 6 vim test-pod.yaml 
+kubectl create namespace test;
+kubectl create -f test-pod.yaml;
+kubectl get pods;
